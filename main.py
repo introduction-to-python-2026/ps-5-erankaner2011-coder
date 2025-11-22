@@ -1,7 +1,7 @@
 import count_atoms_in_molecule from string_utils.py
 import count_atoms_in_molecule from string_utils.py
 import count_atoms_in_molecule from string_utils.py
-import count_atoms_in_molecule from string_utils.py
+import split_before_each_uppercases from string_utils.py
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
     # 1.parse reaction
