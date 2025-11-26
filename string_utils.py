@@ -1,4 +1,4 @@
-def split_before_each_uppercases(formula):
+def split_by_capitals(formula):
     t = []
     splited_formula = []
     for char in formula:
@@ -11,7 +11,7 @@ def split_before_each_uppercases(formula):
     if t:
         splited_formula.append(''.join(t))
     return splited_formula
-def split_at_first_digit(formula):
+def split_at_number(formula):
     digits = []
     letters = []
     for char in formula:
